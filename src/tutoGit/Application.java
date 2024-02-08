@@ -18,6 +18,7 @@ public class Application extends Frame {
 		vue.addActionListener(ctrl);
 		this.addWindowListener(vue);
 		this.add(vue);
+		this.setLocationRelativeTo(null);
 		this.pack();
 		this.setVisible(true);
 	}
